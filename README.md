@@ -21,13 +21,13 @@ Foi desenvolvido 3 UI um para o site, um para o site no mobile e um para o aplic
 
 ### UI Desktop
 
-![UI Desktop full flux](https://github.com/GabrielStima/stistore/blob/main/Design/UI/Site/UI%20Site.png)
+![UI Desktop full flux](https://github.com/GabrielStima/stistore/blob/main/Design/UI/lowFidelity/Site/UI%20Site.png)
 
 ### UI Site mobile
 
-![UI Site mobile full flux](https://github.com/GabrielStima/stistore/blob/main/Design/UI/Mobile/UI%20Site%20Mobile.png)
+![UI Site mobile full flux](https://github.com/GabrielStima/stistore/blob/main/Design/UI/lowFidelity/Mobile/UI%20Site%20Mobile.png)
 
 ### UI App
 
-![UI App full flux](https://github.com/GabrielStima/stistore/blob/main/Design/UI/App/UI%20App.png)
+![UI App full flux](https://github.com/GabrielStima/stistore/blob/main/Design/UI/lowFidelity/App/UI%20App.png)
 
