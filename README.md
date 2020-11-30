@@ -1,3 +1,4 @@
+
 # STI Store
 
 A STI Store é uma loja de roupas casuais que constitui de um site responsivel e um aplicativo mobile.
@@ -19,15 +20,35 @@ Antes de iniciar o desenvolvimento utilizei como analise de layout UI/UX sites c
 
 Foi desenvolvido 3 UI um para o site, um para o site no mobile e um para o aplicativo.
 
-### UI Desktop
+### Wireframe Low Fidelity Desktop
 
-![UI Desktop full flux](https://github.com/GabrielStima/stistore/blob/main/Design/UI/lowFidelity/Site/UI%20Site.png)
+![UI LF Desktop full flux](https://github.com/GabrielStima/stistore/blob/main/Design/UI/lowFidelity/Site/UI%20Site.png)
 
-### UI Site mobile
+### Wireframe Low Fidelity Site mobile
 
-![UI Site mobile full flux](https://github.com/GabrielStima/stistore/blob/main/Design/UI/lowFidelity/Mobile/UI%20Site%20Mobile.png)
+![UI LF Site mobile full flux](https://github.com/GabrielStima/stistore/blob/main/Design/UI/lowFidelity/Mobile/UI%20Site%20Mobile.png)
 
-### UI App
+### Wireframe Low Fidelity App
 
-![UI App full flux](https://github.com/GabrielStima/stistore/blob/main/Design/UI/lowFidelity/App/UI%20App.png)
+![UI LF App full flux](https://github.com/GabrielStima/stistore/blob/main/Design/UI/lowFidelity/App/UI%20App.png)
+
+E após ter um conceito de site, fiz a analise da paleta de cores e da fonte que seria usada no layout.
+
+### Guia de cores e fontes
+
+![UI Color and fonts guide](https://github.com/GabrielStima/stistore/blob/main/Design/UI/ColorAndFonts/ColorAndFonts.png)
+
+E com isso decidito consegui dar seguimento aos wireframes de alta fidelidade.
+
+### Wireframe High Fidelity Desktop
+
+![UI HF Desktop Full Flux](https://github.com/GabrielStima/stistore/blob/main/Design/UI/lowFidelity/Site/UI%20Site.png)
+
+### Wireframe High Fidelity Site mobile
+
+![UI HF Site mobile Full Flux](https://github.com/GabrielStima/stistore/blob/main/Design/UI/lowFidelity/Mobile/UI%20Site%20Mobile.png)
+
+### Wireframe High Fidelity App
+
+![UI HF App Full Flux](https://github.com/GabrielStima/stistore/blob/main/Design/UI/highFidelity/App/UX%20App.png)
 
