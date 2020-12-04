@@ -1,7 +1,8 @@
 
-# STI Store
+# STI Store Overview
 
 A STI Store é uma loja de roupas casuais que constitui de um site responsivel e um aplicativo mobile.
+Para entender mais a fundo sobre as tecnologias e ideias usadas na construção de cada aplicação irá ter um documento especifico.
 
 ## Ideia Inicial
 
@@ -38,7 +39,7 @@ E após ter um conceito de site, fiz a analise da paleta de cores e da fonte que
 
 ![UI Color and fonts guide](https://github.com/GabrielStima/stistore/blob/main/Design/UI/ColorAndFonts/ColorAndFonts.png)
 
-E com isso decidito consegui dar seguimento aos wireframes de alta fidelidade.
+As cores principais usadas foram o azul(#173957) e o branco(#FFFFFF), escolhidas com o intuito de passar aos cliente confiança e clareza seguindo os conceitos da teoria das cores em relação ao marketing. E com isso decidito consegui dar seguimento aos wireframes de alta fidelidade.
 
 ### Wireframe High Fidelity Desktop
 
@@ -52,3 +53,18 @@ E com isso decidito consegui dar seguimento aos wireframes de alta fidelidade.
 
 ![UI HF App Full Flux](https://github.com/GabrielStima/stistore/blob/main/Design/UI/highFidelity/App/UX%20App.png)
 
+## INFRASTRUCTURE
+
+Para desenvolver essa aplicação foi escolhido para hospedagem o **Heroku** e por ele ter vários recursos interessantes e integrados como banco de dados foi escolhido o **Postgres**, para armazenar os dados, usando a estrutura SQL e para facilitar o manuseio do **Postgres**, irá ser usado o **Knex** que é um *SQL query builder*.
+
+### Banco de Dados
+
+Conforme falado acima será utilizado o **Postgres**, porem dentro do próprio **Heroku** temos a possibilidade de criar mais de um banco de dados para o mesmo projeto por isso teremos 2 BD, uma para DEV e outro para ambiente de TEST.
+
+### Armazenamento das Imagens
+
+Por conta do tamanho limitado que os bancos de dados podem ter iremos usar um armazenamento externo dedicado as imagens, usaremos o **Cloudinary**.
+
+### Porque um SQL Buider?
+
+A ideia desse projeto é apresentar as pessoas as habilidades do desenvolvedor, entretanto pensando na parte de testes será necessario um ambiente inteiro, para garantir a não interferencia dos dados entre o ambiente de DEV e o de TEST. E pensando nisso e na facilidade de criar um ambiente novo caso preciso, iremos utilizar *Migrations*, para termos o versionamento do schema.
